@@ -5,7 +5,7 @@ name: Python package
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, my_test_branch ]
   pull_request:
     branches: [ main ]
 
@@ -25,8 +25,8 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Install dependencies
       run: |
-        apt-get install poetry
-        python -m pip install --upgrade pip
+        pip install -U pip
+        pip install poetry
         make install
     - name: Lint with flake8
       run: 
