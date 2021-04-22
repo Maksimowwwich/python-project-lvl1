@@ -1,4 +1,4 @@
-import random 
+import random
 
 
 def get_gcd(x, y):
