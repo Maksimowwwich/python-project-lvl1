@@ -8,3 +8,9 @@
 
 Демонстрация игры brain-even:
 https://asciinema.org/a/409177
+
+Демонстрация игры brain-gcd:
+https://asciinema.org/a/tRcMmb7GkCVkIP05mmeXJPpH5
+
+Демонстрация игры brain-calc:
+https://asciinema.org/a/NyttYTNCemNkwTRq13bKj3ur4
