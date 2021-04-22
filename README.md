@@ -14,3 +14,6 @@ https://asciinema.org/a/tRcMmb7GkCVkIP05mmeXJPpH5
 
 Демонстрация игры brain-calc:
 https://asciinema.org/a/NyttYTNCemNkwTRq13bKj3ur4
+
+Демонстрация игры brain-progression:
+https://asciinema.org/a/b61zvzP5FqABzBomd5mgsUlZL
