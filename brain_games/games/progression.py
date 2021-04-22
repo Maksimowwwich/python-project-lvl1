@@ -7,6 +7,6 @@ def progression():
     numbers = random.randint(5, 10)
     missing_index = random.randint(0, numbers - 1)
     missing_number = str(first + step * missing_index)
-    question = '  '.join([str(first + step * i) if (i != missing_index)
-                         else '..' for i in range(numbers)])
+    question = [(first + step * i) if (i != missing_index)
+                else '..' for i in range(numbers)]
     return (missing_number, question)

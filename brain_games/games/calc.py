@@ -12,4 +12,4 @@ def calc():
         right_answer = str(number1 + number2)
     elif sign == '*':
         right_answer = str(number1 * number2)
-    return (right_answer, f'{number1} {sign} {number2}')
+    return (right_answer, (number1, sign, number2))

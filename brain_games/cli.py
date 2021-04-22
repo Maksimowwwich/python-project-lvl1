@@ -13,7 +13,8 @@ def rounds(func, task, n=3):
     print(task)
     for _ in range(n):
         right_answer, question = func()
-        print(f'Question: {question}')
+        print('Question: ', end='')
+        print(*question)
         user_answer = prompt.string('Your answer: ')
         if user_answer == right_answer:
             print('Correct!')

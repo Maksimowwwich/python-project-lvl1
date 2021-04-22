@@ -13,6 +13,6 @@ def is_prime(n):
 def prime():
     number = random.randint(1, 200)
     if is_prime(number):
-        return ('yes', number)
+        return ('yes', (number, ))
     else:
-        return ('no', number)
+        return ('no', (number, ))
